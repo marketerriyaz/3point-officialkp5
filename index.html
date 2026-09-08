@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1748073526247016');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1748073526247016&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Lern with 3 Point Traders</title>
@@ -148,7 +167,7 @@
   </div>
 
   <header class="top">
-    <img class="logo" src="3pt.jpeg" alt="3 Point Traders logo">
+    <img class="logo" src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2026/09/3pt.jpeg" alt="3 Point Traders logo">
     <div class="brandtext">
       <div class="en">3 Point Traders</div>
       <div class="ta">தமிழில் டிரேடிங் கற்றல்</div>
@@ -267,8 +286,8 @@
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
 
-  var PIXEL_ID = '1579924300252793';
-  fbq('init', 1579924300252793);
+  var PIXEL_ID = '1748073526247016';
+  fbq('init', '1748073526247016');
   fbq('track', 'PageView');
 
   /* =========================================================
@@ -283,7 +302,7 @@
     /* ---- Wire up real Telegram href on every Join Now button ---- */
     var buttons = document.querySelectorAll('.jnBtn');
     buttons.forEach(function (btn) {
-      btn.href = TELEGRAM_LINK;
+      btn.href ='https://t.me/+7w-rbKmS7po2ZDJl';
       btn.addEventListener('click', function (e) {
         e.preventDefault();
         if (isNavigating) return;
@@ -296,7 +315,7 @@
         } catch (err) { /* fail silently, still redirect */ }
 
         setTimeout(function () {
-          window.location.href = TELEGRAM_LINK;
+          window.location.href = TELEGRAM_LINK ;
         }, 120);
       });
     });
